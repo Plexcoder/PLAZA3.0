@@ -1,5 +1,5 @@
 <?php
-if(!mysql_connect("localhost","spaters_plaza","SIafwivlo"))
+if(!mysql_connect("localhost","spaters_plaza","sIafWivlO"))
 {
 	die('HURRRR!! ERROR!!! --> '.mysql_error());
 }
