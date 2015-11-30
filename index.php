@@ -32,7 +32,7 @@ if(isset($_POST['btn-login']))
 	<html xmlns="http://www.w3.org/1999/xhtml">
 		<head>
 			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-			<title>Partner care grade system</title>
+			<title>Plaza 3.0</title>
 			<link rel="stylesheet" href="style.css" type="text/css" />
 		</head>
 	<body>
@@ -40,10 +40,10 @@ if(isset($_POST['btn-login']))
 		<div id="login-form">
 			<form method="post">
 			<table align="left" width="100%" border="0">
-			<tr><td><h1 class class="title">grade assessment exchange</h1></td>
+			<tr><td><h1 class class="title">Plaza 3.0 Login</h1></td>
 			</tr>
 			<tr>
-			<td><input type="text" name="email" placeholder="Your Email" required /></td>
+			<td><input type="text" name="username" placeholder="Your username" required /></td>
 			</tr>
 			<tr>
 			<td><input type="password" name="pass" placeholder="Your Password" required /></td>
