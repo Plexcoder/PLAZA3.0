@@ -1,11 +1,11 @@
 <?php
 if(!mysql_connect("localhost","spaters_plaza","SIafwivlo"))
 {
-	die('oops connection problem ! --> '.mysql_error());
+	die('HURRRR!! ERROR!!! --> '.mysql_error());
 }
-if(!mysql_select_db("grades"))
+if(!mysql_select_db("spaters_plaza"))
 {
-	die('oops database selection problem ! --> '.mysql_error());
+	die('HURRR!! DB ERROR!!! --> '.mysql_error());
 }
 
 ?>
